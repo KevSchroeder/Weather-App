@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/c5c0e27f5d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="enter city name" spellcheck="false">
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+      <!--<i class="fa-solid fa-cloud-showers-heavy"></i> -->
+      <div id="icon-container"></div>
+      <h1 class="temp">70°F</h1>
+      <h2 class="city">Boston</h2>
+      <div class="details">
+        <div class="col">
+          <i class="fa-solid fa-fire"></i>
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+        </div>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-wind"></i>
+        <div>
+          <p class="wind">15 mph</p>
+          <p>Wind Speed</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+  </body>
+</html>
